@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #ffae33, #ff9b19) ;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    min-width: 500px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px;
+}
+
+.emojio {
+    font-size: 5rem;
+}
+.joke {
+    color: #c4c4c4;
+    margin: 10px 0 30px;
+    text-align: center;
+}
+.btn {
+    border: none;
+    outline: none;
+    background-color: #ff961f;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+}

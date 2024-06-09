@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(
+        #ff2c2c,
+        #ff6e6a
+    ) 0 100% no-repeat;
+    background-size: 100% 50%;
+}
+
+.container {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aqua;
+}
+.dice1 {
+    border: 2px solid #ff2c2c;
+    padding: 2px;
+}
+
